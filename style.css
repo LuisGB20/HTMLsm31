@@ -1,0 +1,45 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+* h1,p{
+    text-align: center;
+}
+
+
+.Topnav{
+    float: right;
+    width: 35%;
+}
+
+.Topnav ul{
+    list-style: none;
+}
+
+.Topnav ul li{
+    display: inline-block;
+    padding: 3%;
+}
+.Topnav ul li a{
+    font-size: 25px;
+}
+.Topnav ul li a:hover{
+    color:white;
+    border-bottom: 2px solid white;
+    padding-bottom: 2.5px;
+}
+
+header{
+    background-color:rgb(66, 206, 159);
+    width: 100%;
+    position: absolute;
+}
+
+
+body{
+    margin: 0%;
+}
+
+#titulo{
+    text-align: center;
+}
