@@ -21,7 +21,8 @@
     padding: 3%;
 }
 .Topnav ul li a{
-    font-size: 25px;
+    font-size: 17px;
+    color: black;
 }
 .Topnav ul li a:hover{
     color:white;
@@ -30,7 +31,7 @@
 }
 
 header{
-    background-color:rgb(66, 206, 159);
+    background-color:#A4907C;
     width: 100%;
     position: absolute;
 }
@@ -43,3 +44,70 @@ body{
 #titulo{
     text-align: center;
 }
+
+footer{
+    background-color:#A4907C;
+    width: 100%;
+    position: absolute;
+}
+    #contactame{
+    font-size: 20px;
+    position:relative;
+    padding: 20px 20px 10px 20px;
+    margin: 0%;
+    justify-content: center;
+    color: black;
+}
+
+.info_final{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+.parrafo_izq{
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 10px 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+.parrafo_der{
+    font-size: 14px;
+    text-align: right;
+    padding: 10px 20px 10px 10px;
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+}
+
+.parrafo_der a{
+    color: black;
+    text-decoration: none;
+}
+
+.parrafo_der :hover{
+    color:white;
+    border-bottom: 2px solid white;
+    padding-bottom: 2.5px;
+    text-decoration: none;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    margin: -2%;
+}
+
+.redes a img{
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+}
+
+
+
+
+
